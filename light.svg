@@ -1,0 +1,40 @@
+<svg width="14" height="18" viewBox="0 0 14 18" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes on {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes off {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    .on {
+      animation: on 2s linear;
+      transform-origin: center;
+      opacity: 1;
+    }
+    .off{
+      animation: off 2s linear;
+      transform-origin: center;
+      opacity: 0;
+    }
+  </style>
+  <path d="M10.125 14.0625C11.2434 11.018 13.5 9.68899 13.5 6.75C13.5 3.02208 10.4779 0 6.75 0C3.02208 0 0 3.02208 0 6.75C0 9.68899 2.25662 11.018 3.375 14.0625H10.125Z" fill="white"/>
+  <path d="M3.375 14.625H10.125V16.6875C10.125 17.4124 9.53737 18 8.8125 18H4.6875C3.96263 18 3.375 17.4124 3.375 16.6875V14.625Z" fill="#CECECE"/>
+  <path class=${state} d="M10.125 14.0625C11.2434 11.018 13.5 9.68899 13.5 6.75C13.5 3.02208 10.4779 0 6.75 0C3.02208 0 0 3.02208 0 6.75C0 9.68899 2.25662 11.018 3.375 14.0625H10.125Z" fill="url(#paint0_linear_2481_2)"/>
+  <path class=${state} d="M3.375 14.625H10.125V16.6875C10.125 17.4124 9.53737 18 8.8125 18H4.6875C3.96263 18 3.375 17.4124 3.375 16.6875V14.625Z" fill="#4F4F4F"/>
+  <defs>
+    <linearGradient id="paint0_linear_2481_2" x1="6.75" y1="0" x2="6.75" y2="14.0625" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD15B"/>
+      <stop offset="1" stop-color="#F5F5F5"/>
+    </linearGradient>
+  </defs>
+</svg>
