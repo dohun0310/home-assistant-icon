@@ -1,0 +1,49 @@
+<svg width="13" height="20" viewBox="0 0 13 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes unlock {
+      0% {
+        fill: #CECECE;
+        transform: rotate(0deg);
+      }
+      100% {
+        fill: #4F4F4F;
+        transform: rotate(25deg);
+      }
+    }
+    @keyframes lock {
+      0% {
+        fill: #4F4F4F;
+        transform: rotate(25deg);
+      }
+      100% {
+        fill: #CECECE;
+        transform: rotate(0deg);
+      }
+    }
+    .unlocked {
+      animation: unlock 0.5s linear;
+      transform: rotate(25deg);
+      transform-origin: 2.93799px 15.7695px;
+      fill: #4F4F4F;
+    }
+    .locked{
+      animation: lock 0.5s linear;
+      transform-origin: 2.93799px 15.7695px;
+      fill: #CECECE;
+    }
+  </style>
+  <g clip-path="url(#clip0_2428_242)">
+    <rect width="8" height="20" rx="1" fill="white"/>
+    <rect class="${state}" x="2" y="14" width="11" height="2" rx="1" fill="#CECECE"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 5.86622C4.7989 5.69331 5 5.37014 5 5C5 4.44772 4.55228 4 4 4C3.44772 4 3 4.44772 3 5C3 5.37014 3.2011 5.69331 3.5 5.86622V6.5C3.5 6.77614 3.72386 7 4 7C4.27614 7 4.5 6.77614 4.5 6.5V5.86622Z" fill="url(#paint0_linear_2428_242)"/>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear_2428_242" x1="4" y1="4" x2="6" y2="8.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BF81E4"/>
+      <stop offset="1" stop-color="#BF81E4" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip0_2428_242">
+      <rect width="13" height="20" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>
