@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20" fill="none">
+  <style>
+    @keyframes on {
+      0% {
+        clip-path: inset(100% 0 0 0);
+      }
+      100% {
+        clip-path: inset(0 0 0 0);
+      }
+    }
+    @keyframes off {
+      0% {
+        clip-path: inset(0 0 0 0);
+      }
+      100% {
+        clip-path: inset(100% 0 0 0);
+      }
+    }
+    .on {
+      animation: on 2s linear;
+      opacity: 1;
+    }
+    .off {
+      animation: off 2s linear;
+      opacity: 0;
+    }
+  </style>
+  <rect y="3" width="14" height="14" rx="3" fill="white"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M7 6.75C6.58579 6.75 6.25 7.08579 6.25 7.5V10.9999C5.94639 11.228 5.75 11.591 5.75 12C5.75 12.6904 6.30964 13.25 7 13.25C7.69036 13.25 8.25 12.6904 8.25 12C8.25 11.591 8.05361 11.228 7.75 10.9999V7.5C7.75 7.08579 7.41421 6.75 7 6.75Z" fill="#CECECE"/>
+  <path class="${state}" fill-rule="evenodd" clip-rule="evenodd" d="M7 6.75C6.58579 6.75 6.25 7.08579 6.25 7.5V10.9999C5.94639 11.228 5.75 11.591 5.75 12C5.75 12.6904 6.30964 13.25 7 13.25C7.69036 13.25 8.25 12.6904 8.25 12C8.25 11.591 8.05361 11.228 7.75 10.9999V7.5C7.75 7.08579 7.41421 6.75 7 6.75Z" fill="url(#paint0_linear_2428_289)"/>
+  <defs>
+    <linearGradient id="paint0_linear_2428_289" x1="7" y1="6.75" x2="7" y2="13.25" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CECECE"/>
+      <stop offset="1" stop-color="#FFAA5B"/>
+    </linearGradient>
+  </defs>
+</svg>
