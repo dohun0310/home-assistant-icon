@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7" height="20" viewBox="0 0 7 20" fill="none">
+  <style>
+    @keyframes on {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes off {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    .on {
+      animation: on 2s linear;
+      transform-origin: center;
+      opacity: 1;
+    }
+    .off {
+      animation: off 2s linear;
+      transform-origin: center;
+      opacity: 0;
+    }
+  </style>
+  <g clip-path="url(#clip0_2428_225)">
+    <rect class="${opposite_state}" width="7" height="20" rx="0.5" fill="#CECECE"/>
+    <rect class="${state}" width="7" height="20" rx="0.5" fill="#4F4F4F"/>
+    <rect x="0.25" width="6.5" height="20" rx="0.5" fill="white"/>
+    <circle class="${opposite_state}" cx="3.5" cy="3.5" r="2.4" stroke="#CECECE" stroke-width="0.2"/>
+    <circle class="${state}" cx="3.5" cy="3.5" r="2.5" fill="url(#paint0_linear_2428_225)"/>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear_2428_225" x1="1" y1="-1.11759e-08" x2="6" y2="7.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#99C2FF"/>
+      <stop offset="1" stop-color="#AFD5FF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip0_2428_225">
+      <rect width="7" height="20" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>
