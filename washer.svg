@@ -1,0 +1,79 @@
+<svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes on {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes off {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    @keyframes rotate-start {
+      0% {
+        transform: rotate(0deg);
+        opacity: 0;
+      }
+      100% {
+        transform: rotate(360deg);
+        opacity: 1;
+      }
+    }
+    @keyframes rotate-constant {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(720deg);
+      }
+    }
+    @keyframes stop {
+      0% {
+        transform: rotate(360deg);
+        opacity: 1;
+      }
+      100% {
+        transform: rotate(0deg);
+        opacity: 0;
+      }
+    }
+    .spinning {
+      animation: rotate-start 1.5s ease-in forwards, rotate-constant 1.5s linear 1.5s infinite;
+      transform-origin: center;
+    }
+    .stoped {
+      animation: stop 1.5s ease;
+      transform-origin: center;
+      opacity: 0;
+    }
+    .on {
+      animation: on 2s linear;
+      transform-origin: center;
+      opacity: 1;
+    }
+    .off {
+      animation: off 2s linear;
+      transform-origin: center;
+      opacity: 0;
+    }
+  </style>
+  <rect width="14" height="20" rx="1" fill="white"/>
+  <circle cx="7" cy="10" r="6" fill="#878787"/>
+  <circle cx="7" cy="2" r="1" fill="#878787"/>
+  <circle class="${state}" cx="7" cy="10" r="6" fill="#4F4F4F"/>
+  <circle class="${state}" cx="7" cy="2" r="1" fill="#4F4F4F"/>
+  <path class="${spin}" fill-rule="evenodd" clip-rule="evenodd" d="M11.7025 11.7027C11.0061 13.6258 9.16346 15 6.99991 15C4.97874 15 3.23768 13.8007 2.44946 12.075C2.97669 11.6315 3.91744 11 4.99991 11C5.85224 11 6.44285 11.3692 7.03886 11.7417C7.60945 12.0983 8.185 12.4581 8.99991 12.5C10.161 12.5597 11.2094 12.0119 11.7025 11.7027Z" fill="url(#paint0_linear_2428_198)"/>
+  <defs>
+    <linearGradient id="paint0_linear_2428_198" x1="3.5" y1="11.5" x2="11" y2="14" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D1E9FF"/>
+      <stop offset="1" stop-color="#72BBFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
