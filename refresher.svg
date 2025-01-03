@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7" height="20" viewBox="0 0 7 20" fill="none">
+  <style>
+    @keyframes on {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes off {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    @keyframes move {
+      0% {
+        transform: rotate(0deg);
+      }
+      10% {
+        transform: rotate(30deg);
+      }
+      20% {
+        transform: rotate(-28deg);
+      }
+      30% {
+        transform: rotate(34deg);
+      }
+      40% {
+        transform: rotate(-32deg);
+      }
+      50% {
+        transform: rotate(30deg);
+      }
+      60% {
+        transform: rotate(-28deg);
+      }
+      70% {
+        transform: rotate(26deg);
+      }
+      80% {
+        transform: rotate(-24deg);
+      }
+      90% {
+        transform: rotate(22deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+    @keyframes stop {
+      0% {
+        transform: rotate(0deg);
+      }
+      10% {
+        transform: rotate(-30deg);
+      }
+      20% {
+        transform: rotate(28deg);
+      }
+      30% {
+        transform: rotate(-34deg);
+      }
+      40% {
+        transform: rotate(32deg);
+      }
+      50% {
+        transform: rotate(-30deg);
+      }
+      60% {
+        transform: rotate(28deg);
+      }
+      70% {
+        transform: rotate(-26deg);
+      }
+      80% {
+        transform: rotate(24deg);
+      }
+      90% {
+        transform: rotate(-22deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+    .on.move, .off.move {
+      animation: move 2s infinite;
+      transform-origin: 50% 15%;
+    }
+    .on.stop, .off.stop {
+      animation: stop 2s linear;
+      transform-origin: 50% 15%;
+    }
+    .on {
+      animation: on 2s linear;
+      opacity: 1;
+    }
+    .off {
+      animation: off 2s linear;
+      opacity: 0;
+    }
+  </style>
+  <g clip-path="url(#clip0_2428_236)">
+    <rect class="${opposite_state}" width="7" height="20" rx="0.5" fill="#CECECE"/>
+    <rect class="${state}" width="7" height="20" rx="0.5" fill="#4F4F4F"/>
+    <rect x="0.25" width="6.5" height="20" rx="0.5" fill="white"/>
+    <path class="${opposite_state} ${move}" d="M3.15004 2.49998C3.15004 2.30668 3.30674 2.14998 3.50004 2.14998C3.69334 2.14998 3.85004 2.30668 3.85004 2.49998C3.85004 2.52323 3.8395 2.558 3.79863 2.61696C3.76967 2.65875 3.73573 2.69915 3.6951 2.74751C3.6762 2.77001 3.65585 2.79424 3.63388 2.82112C3.58495 2.881 3.38083 3.05159 3.38083 3.05159L1.36453 3.92468C1.06573 4.05406 1.15813 4.49998 1.48374 4.49998H5.51634C5.84195 4.49998 5.93435 4.05406 5.63554 3.92468L3.78169 3.12194C3.80756 3.08451 3.83609 3.04778 3.86619 3.01094C3.88146 2.99225 3.89794 2.97263 3.91486 2.95247C3.95979 2.89896 4.00792 2.84164 4.0452 2.78786C4.09808 2.71156 4.15004 2.61479 4.15004 2.49998C4.15004 2.14099 3.85902 1.84998 3.50004 1.84998C3.14105 1.84998 2.85004 2.14099 2.85004 2.49998C2.85004 2.58282 2.91719 2.64998 3.00004 2.64998C3.08288 2.64998 3.15004 2.58282 3.15004 2.49998Z" fill="#CECECE"/>
+    <path class="${state} ${move}" d="M3.15004 2.49998C3.15004 2.30668 3.30674 2.14998 3.50004 2.14998C3.69334 2.14998 3.85004 2.30668 3.85004 2.49998C3.85004 2.52323 3.8395 2.558 3.79863 2.61696C3.76967 2.65875 3.73573 2.69915 3.6951 2.74751C3.6762 2.77001 3.65585 2.79424 3.63388 2.82112C3.58495 2.881 3.38083 3.05159 3.38083 3.05159L1.36453 3.92468C1.06573 4.05406 1.15813 4.49998 1.48374 4.49998H5.51634C5.84195 4.49998 5.93435 4.05406 5.63554 3.92468L3.78169 3.12194C3.80756 3.08451 3.83609 3.04778 3.86619 3.01094C3.88146 2.99225 3.89794 2.97263 3.91486 2.95247C3.95979 2.89896 4.00792 2.84164 4.0452 2.78786C4.09808 2.71156 4.15004 2.61479 4.15004 2.49998C4.15004 2.14099 3.85902 1.84998 3.50004 1.84998C3.14105 1.84998 2.85004 2.14099 2.85004 2.49998C2.85004 2.58282 2.91719 2.64998 3.00004 2.64998C3.08288 2.64998 3.15004 2.58282 3.15004 2.49998Z" fill="url(#paint0_linear_2428_236)"/>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear_2428_236" x1="3.50004" y1="1.84998" x2="3.5" y2="5.00037" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5ABFB3"/>
+      <stop offset="1" stop-color="#5ABFB3" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip0_2428_236">
+      <rect width="7" height="20" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>
