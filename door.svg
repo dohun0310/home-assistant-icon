@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+  <style>
+    @keyframes open {
+      0% {
+        width: 12px;
+      }
+      100% {
+        width: 7px;
+      }
+    }
+    @keyframes close {
+      0% {
+        width: 7px;
+      }
+      100% {
+        width: 12px;
+      }
+    }
+    @keyframes move {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-4.5px);
+      }
+    }
+    @keyframes back {
+      0% {
+        transform: translateX(-4.5px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    .open {
+      animation: open 2s linear;
+      width: 7px;
+    }
+    .close {
+      animation: close 2s linear;
+      width: 12px
+    }
+    .move {
+      animation: move 2s linear;
+      transform: translateX(-4.5px);
+    }
+    .back {
+      animation: back 2s linear;
+      transform: translateX(0);
+    }
+  </style>
+  <g clip-path="url(#clip0_2428_261)">
+    <rect width="12" height="20" rx="1" fill="#4F4F4F"/>
+    <rect class="${state}" width="12" height="20" rx="1" fill="white"/>
+    <path class="${move}" fill-rule="evenodd" clip-rule="evenodd" d="M10 10.3662C10.2989 10.1933 10.5 9.87014 10.5 9.5C10.5 8.94772 10.0523 8.5 9.5 8.5C8.94772 8.5 8.5 8.94772 8.5 9.5C8.5 9.87014 8.7011 10.1933 9 10.3662V11C9 11.2761 9.22386 11.5 9.5 11.5C9.77614 11.5 10 11.2761 10 11V10.3662Z" fill="url(#paint0_linear_2428_261)"/>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear_2428_261" x1="9.5" y1="8.5" x2="11.5" y2="13" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BF81E4"/>
+      <stop offset="1" stop-color="#BF81E4" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip0_2428_261">
+      <rect width="12" height="20" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>
